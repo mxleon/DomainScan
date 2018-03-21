@@ -2,7 +2,7 @@
 com=whois.verisign-grs.com=No match for=
 edu=whois.verisign-grs.com=No match for=
 net=whois.verisign-grs.com=No match for=
-//ad=whois.ripe.net=o entries found=
+ad=whois.ripe.net=o entries found=
 ae=whois.aeda.net.ae=No Data Found=
 af=whois.nic.af=No Object Found=
 ag=whois.nic.ag=NOT FOUND=
@@ -15,9 +15,9 @@ ai=whois.ai=not registered=
 ar=whois.nic.ar=dominio no se=
 aw=whois.nic.aw=is free=
 ax=whois.ax=Domain not found=
-//al=whois.ripe.net=No entries found=
-//az=whois.ripe.net=No entries found=
-//ba=whois.ripe.net=No entries found=
+al=whois.ripe.net=No entries found=
+az=whois.ripe.net=No entries found=
+ba=whois.ripe.net=No entries found=
 bg=whois.register.bg=does not exist in database=
 bi=whois1.nic.bi=No Object Found=
 bingo=whois.donuts.co=Domain not found=
@@ -43,7 +43,7 @@ co=whois.nic.co=Not found=
 cool=whois.donuts.co=Domain not found=
 cr=whois.nic.cr=No entries found=
 cx=whois.nic.cx=No Object Found=
-//cy=whois.ripe.net=No entries found=
+cy=whois.ripe.net=No entries found=
 cz=whois.nic.cz=o entries found=
 de=whois.nic.de=Status: free=
 dk=whois.dk-hostmaster.dk=o entries found=
@@ -60,9 +60,9 @@ fj=whois.usp.ac.fj=ot found=
 fm=whois.nic.fm=ot found=
 fo=whois.nic.fo=No entries found=
 fr=whois.nic.fr=o entries found=
-//gb=whois.ripe.net=No entries found=
+gb=whois.ripe.net=No entries found=
 gd=whois.nic.gd=ot found=
-//ge=whois.ripe.net=No entries found=
+ge=whois.ripe.net=No entries found=
 gg=whois.gg=NOT FOUND=
 gi=whois2.afilias-grs.net=NOT FOUND=
 gl=whois.nic.gl=No Object Found=
@@ -84,7 +84,7 @@ im=whois.nic.im=ot found=
 in=whois.inregistry.in=NOT FOUND=
 info=whois.afilias.info=NOT FOUND=
 int=whois.iana.org=this server does not have=
-//io=whois.nic.io=available=
+io=whois.nic.io=available=
 iq=whois.cmc.iq=No Object Found=
 ir=whois.nic.ir=o entries found=
 is=whois.isnic.is=o entries found=
@@ -100,7 +100,7 @@ ky=whois.kyregistry.ky=vailable=
 kz=whois.nic.kz=othing found=
 la=whois.nic.la=DOMAIN NOT FOUND=
 lc=whois2.afilias-grs.net=NOT FOUND=
-//li=whois.nic.li=not have an entry=
+li=whois.nic.li=not have an entry=
 lt=whois.domreg.lt=available=
 lu=whois.dns.lu=o such domain=
 lv=whois.nic.lv= free=
@@ -111,7 +111,7 @@ me=whois.nic.me=NOT FOUND=
 mg=whois.nic.mg=No Object Found=
 mk=whois.marnet.mk=No entries found=
 ml=whois.dot.ml=ot known=
-//mm=whois.nic.mm=No domains matched=
+mm=whois.nic.mm=No domains matched=
 mn=whois.nic.mn=NOT FOUND=
 mo=whois.monic.mo=o match for=
 mobi=whois.afilias.net=NOT FOUND=
@@ -120,7 +120,7 @@ mom=whois.uniregistry.net=available=
 ms=whois.nic.ms=No Object Found=
 mu=whois.nic.mu=No Object Found=
 mx=whois.mx=Object_Not_Found=
-//my=whois.mynic.net.my=does not exist=
+my=whois.mynic.net.my=does not exist=
 mz=whois.nic.mz=No Object Found=
 na=whois.na-nic.com.na=No Object Found=
 name=whois.nic.name=o match=
@@ -157,11 +157,11 @@ rw=whois.ricta.org.rw=No Object Found=
 sa=whois.nic.net.sa=No Match=
 sb=whois.nic.net.sb=No Object Found=
 com.sb=whois.nic.net.sb=No Object Found=
-//sc=whois.afilias-grs.net=ot found=
+sc=whois.afilias-grs.net=ot found=
 se=whois.nic.se=ot found=
 sg=whois.nic.net.sg=Not Found=
 com.sg=whois.nic.net.sg=Not Found=
-//sh=whois.nic.sh=is available for purchase=
+sh=whois.nic.sh=is available for purchase=
 si=whois.arnes.si=o entries found=
 site=whois.centralnic.com=NOT FOUND=
 sk=whois.sk-nic.sk=ot found=
@@ -172,7 +172,7 @@ so=whois.nic.so=ot found=
 st=whois.nic.st=o entries found=
 su=whois.tcinet.ru=No entries found=
 sx=whois.sx=o match for=
-//sy=whois.tld.sy=No Object Found=
+sy=whois.tld.sy=No Object Found=
 tc=whois.nic.tc=No Object Found=
 tel=whois.nic.tel=No Domain=
 tf=whois.nic.tf=o entries found=
