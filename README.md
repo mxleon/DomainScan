@@ -48,7 +48,7 @@ Please specify dictionary file: 2letter
 
 ```
 # 查询 xx前缀的所有域名是否可用
-python xx 
+python domain_scan.py xx 
 # 查询 2letter文件中所有.com后缀的可以注册的域名
-python com 2letter
+python domain_scan.py com 2letter
 ```
