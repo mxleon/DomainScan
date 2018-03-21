@@ -39,3 +39,16 @@ Please specify dictionary file: 2letter
 所有的输入都只支持英文，严禁输入任何标点符号。
 
 部分域名，如.cn和.vc在扫描中会出现“Segmentation Fault”，这是服务商禁止了连续扫描功能，如果你需要查询此类域名，可以尝试将字典拆分成多份。
+
+
+
+# python 版本
+
+需要3.6以上版本
+
+```
+# 查询 xx前缀的所有域名是否可用
+python xx 
+# 查询 2letter文件中所有.com后缀的可以注册的域名
+python com 2letter
+```

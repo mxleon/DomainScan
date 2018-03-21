@@ -3,6 +3,7 @@ import select
 import time
 import os
 import threading
+import sys
 
 # 并发最大线程数
 max_thread = 4
@@ -45,16 +46,16 @@ def get_reginfo(name, tld_info):
     can_reg = False
     info = whois_query(name, tld_info[0], tld_info[1])
     reg = tld_info[2]
-    print(reg)
+    # print(reg)
     if not info:
         print(f'域名{name}.{tld_info[0]}查询失败！')
         return
-    print(info)
+    # print(info)
     if info.find(reg) >= 0:
         print(f'域名{name}.{tld_info[0]} 未注册！')
         can_reg = True
     else:
-        print(f'域名{name}.{tld_info[0]} 已注册！')
+        # print(f'域名{name}.{tld_info[0]} 已注册！')
         can_reg = False
     if can_reg:
         with open(f'result_scan.data','a') as f:
@@ -89,11 +90,13 @@ def get_domain_free(name,domain):
         t = threading.Thread(target=get_reginfo, args=(name,tld_par_list[tld_index],))
         t.start()
             
-def main():
-    # 查询此前缀有哪些域名可以注册
-    # get_domain_name("jv")
-    # 查询可用域名
-    get_domain_free('2letter','lu')
-
 if __name__ == '__main__':
-    main()
+
+   
+    args = sys.argv[1:]
+    if len(args) == 1:
+        ## python asura 
+        get_domain_name(args[0])
+    else:
+         ## python lu 2letter
+        get_domain_free(args[1],args[0])
