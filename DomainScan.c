@@ -7,11 +7,36 @@
 #include<netdb.h>
 #include<unistd.h>
 
+void zclock_sleep(int);
 int DomainScan(char * , char *, char *, char *);
 int hostname_to_ip(char * , char *);
 int whois_query(char * , char * , char **);
 int Str_Split(char *str, char c, char ***arr);
 char* Str_Conn(const char *s1, const char *s2);
+
+//  --------------------------------------------------------------------------
+//  Sleep for a number of milliseconds
+
+void zclock_sleep (int msecs){
+#if defined (__UNIX__)
+	struct timespec t;
+	t.tv_sec  =  msecs / 1000;
+	t.tv_nsec = (msecs % 1000) * 1000000;
+	nanosleep (&t, NULL);
+#elif (defined (__WINDOWS__))
+	//  Windows XP/2000:  A value of zero causes the thread to relinquish the
+	//  remainder of its time slice to any other thread of equal priority that is
+	//  ready to run. If there are no other threads of equal priority ready to run,
+	//  the function returns immediately, and the thread continues execution. This
+	//  behavior changed starting with Windows Server 2003.
+#   if defined (NTDDI_VERSION) && defined (NTDDI_WS03) && (NTDDI_VERSION >= NTDDI_WS03)
+	Sleep (msecs);
+#   else
+	if (msecs > 0)
+		Sleep (msecs);
+#   endif
+#endif
+}
 
 int main(int argc , char *argv[]) {
     FILE * fp = fopen("tld","r");
@@ -72,6 +97,7 @@ int main(int argc , char *argv[]) {
         DomainPrefix[n]='\0';
         strcpy(domain,Str_Conn(Str_Conn(DomainPrefix,"."),DomainExt));
         DomainScan(domain, NoMatchPattern, WhoisQueryServer, DomainExt);
+        zclock_sleep(60000);
     }
 
 
