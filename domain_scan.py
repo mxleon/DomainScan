@@ -8,6 +8,7 @@ import sys
 # 并发最大线程数
 max_thread = 4
 timeout = 10
+sleep_time = 0.1
 socket.setdefaulttimeout(timeout)
 
 def get_tld():
@@ -37,7 +38,7 @@ def whois_query(domain_name, name_server, whois_server):
                 info += str(res)
             s.close()
             retry -= 1
-            time.sleep(0.1)
+            time.sleep(sleep_time)
         except:
             pass
     return info
@@ -52,10 +53,10 @@ def get_reginfo(name, tld_info):
         return
     # print(info)
     if info.find(reg) >= 0:
-        print(f'域名{name}.{tld_info[0]} 未注册！')
+        print(f'域名{name}.{tld_info[0]} 未注册 => !!!!!!')
         can_reg = True
     else:
-        # print(f'域名{name}.{tld_info[0]} 已注册！')
+        print(f'域名{name}.{tld_info[0]} 已注册 => XXXXXXX')
         can_reg = False
     if can_reg:
         with open(f'result_scan.data','a') as f:
@@ -70,6 +71,7 @@ def get_domain_name(name):
             pass
         t = threading.Thread(target=get_reginfo, args=(name,domain,))
         t.start()
+        time.sleep(sleep_time)
 
 def get_domain_free(name,domain):
     name_list = []
@@ -89,6 +91,7 @@ def get_domain_free(name,domain):
             pass
         t = threading.Thread(target=get_reginfo, args=(name,tld_par_list[tld_index],))
         t.start()
+        time.sleep(sleep_time)
             
 if __name__ == '__main__':
 
