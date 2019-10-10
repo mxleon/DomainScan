@@ -1,23 +1,20 @@
 =From Har-Kuun and UseLab
-com=whois.verisign-grs.com=No match for=
-edu=whois.verisign-grs.com=No match for=
-net=whois.verisign-grs.com=No match for=
 ad=whois.ripe.net=o entries found=
 ae=whois.aeda.net.ae=No Data Found=
 af=whois.nic.af=No Object Found=
 ag=whois.nic.ag=NOT FOUND=
+//ai=whois.ai=not registered=
+al=whois.ripe.net=No entries found=
 am=whois.amnic.net=o match=
+ar=whois.nic.ar=dominio no se=
 as=whois.nic.as=NOT FOUND=
 at=whois.nic.at=othing found=
 au=whois.audns.net.au=No Data Found=
-be=whois.dns.be=AVAILABLE=
-//ai=whois.ai=not registered=
-ar=whois.nic.ar=dominio no se=
 aw=whois.nic.aw=is free=
 ax=whois.ax=Domain not found=
-al=whois.ripe.net=No entries found=
 az=whois.ripe.net=No entries found=
 ba=whois.ripe.net=No entries found=
+be=whois.dns.be=AVAILABLE=
 bg=whois.register.bg=does not exist in database=
 bi=whois1.nic.bi=No Object Found=
 bingo=whois.donuts.co=Domain not found=
@@ -39,7 +36,12 @@ ci=whois.nic.ci=No Object Found=
 cl=whois.nic.cl=no existe=
 cm=whois.netcom.cm=Not Registered=
 cn=whois.cnnic.net.cn=No matching record=
+co.nz=whois.srs.net.nz=220 Available=
+co.uk=whois.nic.uk=No match=
 co=whois.nic.co=Not found=
+com.sb=whois.nic.net.sb=No Object Found=
+com.sg=whois.nic.net.sg=Not Found=
+com=whois.verisign-grs.com=No match for=
 cool=whois.donuts.co=Domain not found=
 cr=whois.nic.cr=No entries found=
 cx=whois.nic.cx=No Object Found=
@@ -52,6 +54,7 @@ do=whois.nic.do=No Object Found=
 dog=whois.donuts.co=Domain not found=
 dz=whois.nic.dz=NO OBJECT FOUND=
 ec=whois.nic.ec=Not Registered=
+edu=whois.verisign-grs.com=No match for=
 ee=whois.eenet.ee=not found=
 email=whois.donuts.co=Domain not found=
 eu=whois.eu=Status: AVAILABLE=
@@ -125,13 +128,13 @@ mz=whois.nic.mz=No Object Found=
 na=whois.na-nic.com.na=No Object Found=
 name=whois.nic.name=o match=
 nc=whois.nc=o entries found=
+net=whois.verisign-grs.com=No match for=
 nf=whois.nic.nf=No Object Found=
 ng=whois.nic.net.ng=No Object Found=
 nl=whois.domain-registry.nl=is free=
 no=whois.norid.no=o match=
 nu=whois.nic.nu=ot found=
 nz=whois.srs.net.nz=220 Available=
-co.nz=whois.srs.net.nz=220 Available=
 om=whois.registry.om=No Data Found=
 one=whois.nic.one=No Data Found=
 ooo=whois.nic.ooo=o match for=
@@ -156,11 +159,9 @@ ru=whois.tcinet.ru=No entries found=
 rw=whois.ricta.org.rw=No Object Found=
 sa=whois.nic.net.sa=No Match=
 sb=whois.nic.net.sb=No Object Found=
-com.sb=whois.nic.net.sb=No Object Found=
 sc=whois.afilias-grs.net=ot found=
 se=whois.nic.se=ot found=
 sg=whois.nic.net.sg=Not Found=
-com.sg=whois.nic.net.sg=Not Found=
 sh=whois.nic.sh=is available for purchase=
 si=whois.arnes.si=o entries found=
 site=whois.centralnic.com=NOT FOUND=
@@ -191,7 +192,6 @@ tz=whois.tznic.or.tz=No entries found=
 ua=whois.ua=o entries found=
 ug=whois.co.ug=o entries found=
 uk=whois.nic.uk=No match=
-co.uk=whois.nic.uk=No match=
 us=whois.nic.us=ot found=
 uy=whois.nic.org.uy=o match for=
 uz=whois.cctld.uz=ot found=
